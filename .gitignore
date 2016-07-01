@@ -1,14 +1,30 @@
+#Ignore all idea project files
+.idea
+*.ipr
+*.iws
+out
+
+#Ignore Android generated files
+bin
+gen
+
+#Eclipse
+.project
+.classpath
+.settings
+
+#Maven
+target
+release.properties
+
+#Ignore Ant files
+build.xml
+local.properties
+proguard.cfg
+
+#Ignore OSX
+.DS_Store
+
+#Ignore all gradle cache files
+build
 .gradle
-build/
-
-# Ignore Gradle GUI config
-gradle-app.setting
-
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
-
-# Cache of project
-.gradletasknamecache
-
-# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
-# gradle/wrapper/gradle-wrapper.properties
