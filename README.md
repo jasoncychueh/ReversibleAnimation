@@ -1,3 +1,4 @@
+[![GitHub license](https://img.shields.io/github/license/dcendents/android-maven-gradle-plugin.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
 # ReversibleAnimationDrawable
 > Have you ever created two AnimationDrawable for reverse animation or encountered OOM issue when the sequence animation contains too many frames. This library aims to solve the two issues.
 
