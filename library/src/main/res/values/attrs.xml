@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="LazyLoadingAnimationDrawable">
+        <attr name="android:duration" />
+        <attr name="android:drawable" />
+        <attr name="android:oneshot" />
+        <attr name="android:visible" />
+    </declare-styleable>
+</resources>

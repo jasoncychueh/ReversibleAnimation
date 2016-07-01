@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <item
+        android:drawable="@drawable/homer_001"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_002"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_003"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_004"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_005"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_006"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_007"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_008"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_009"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_010"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_011"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_012"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_013"
+        android:duration="33" />
+    <item
+        android:drawable="@drawable/homer_014"
+        android:duration="33" />
+</animation-list>
