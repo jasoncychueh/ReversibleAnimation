@@ -1,1 +1,2 @@
 include ':example', ':library'
+rootProject.name = 'reversible-animation'
