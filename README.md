@@ -1,7 +1,29 @@
 [![GitHub license](https://img.shields.io/github/license/dcendents/android-maven-gradle-plugin.svg)](http://www.apache.org/licenses/LICENSE-2.0.html)
+[![](https://jitpack.io/v/jasoncychueh/ReversibleAnimation.svg)](https://jitpack.io/#jasoncychueh/ReversibleAnimation/1.0.0-SNAPSHOT)
+
 # ReversibleAnimationDrawable
 > Have you ever created two AnimationDrawable for reverse animation or encountered OOM issue when the sequence animation contains too many frames. This library aims to solve the two issues.
 
+### Gradle Dependency
+
+Add it in your root build.gradle at the end of repositories:
+
+```gradle
+allprojects {
+    repositories {
+    	...
+    	maven { url "https://jitpack.io" }
+    }
+}
+```
+
+Then, add the dependency to your module `build.gradle`
+
+```gradle
+dependencies {
+    compile 'com.github.jasoncychueh:ReversibleAnimation:1.0.0-SNAPSHOT'
+}
+```
 
 #### Reverse animation
 > [AnimationDrawable](https://developer.android.com/reference/android/graphics/drawable/AnimationDrawable.html) does not support reverse animation. [ReverseAnimationDrawable](ReversibleAnimationDrawable/library/src/main/java/com/foureach/graphics/drawable/ReversibleAnimationDrawable.java) extends AnimationDrawable and provides reversibility.
